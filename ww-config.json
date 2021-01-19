@@ -1,3 +1,13 @@
 {
-    "componentPath": "./src/wwSection.vue"
+    "componentPath": "./src/wwSection.vue",
+    "editor": {
+        "settingsOptions": {
+            "title": {
+                "type": "Text",
+                "label": {
+                    "en": "Title"
+                }
+            }
+        }
+    }
 }
