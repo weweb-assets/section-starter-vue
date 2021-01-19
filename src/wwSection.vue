@@ -1,11 +1,7 @@
 <template>
     <div class="my-section">
         <h1>{{ content.title }}</h1>
-        <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et
-            dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex
-            ea commodo consequat.
-        </p>
+        <wwLayout class="drop-zone" path="list"></wwLayout>
     </div>
 </template>
 
@@ -19,6 +15,7 @@ export default {
     },
     wwDefaultContent: {
         title: 'My title',
+        list: [],
     },
 };
 </script>
@@ -34,6 +31,15 @@ export default {
     }
     p {
         margin-top: 12px;
+    }
+    .drop-zone {
+        display: block;
+        min-height: 300px;
+        width: 50%;
+        margin: 18px;
+        padding: 18px;
+        background-color: #fafafa;
+        border: 1px solid #535353;
     }
 }
 </style>
