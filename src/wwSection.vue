@@ -31,6 +31,7 @@ export default {
     min-height: 200px;
     h1 {
         font-size: 32px;
+        text-align: center;
     }
     p {
         margin-top: 12px;
