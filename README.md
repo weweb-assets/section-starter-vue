@@ -12,4 +12,4 @@ To serve locally, run `yarn serve --port=[PORT]` or `npm run serve --port=[PORT]
 
 ## Build
 
-Before release, you can check build error by running `yarn build`
+Before release, you can check build error by running `yarn build --name=section-starter-vue`
